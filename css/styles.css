@@ -1,20 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
-  line-height: normal;
   color: #000000;
   background-color: #fff;
-  font-weight: 400;
-  cursor: pointer;
   font-style: normal;
 }
 
-:link,
-:visited {
-  text-decoration: none;
+.link {
+  list-style: none;
 }
 
-ul,
-ol {
+ul {
   list-style: none;
 }
 
