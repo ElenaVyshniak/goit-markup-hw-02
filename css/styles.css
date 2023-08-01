@@ -78,29 +78,31 @@ body {
 .hero-section {
   background: var(--navyblue);
 }
+
 .hero-title {
   font-family: 'Roboto';
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   color: var(--white);
   text-align: center;
 }
+
 .hero-button {
   border-radius: 4px;
   background: var(--iris);
- }
+}
 
 .hero-button:hover,
-hero-button:focus {
+.hero-button:focus {
   background-color: var(--ocean);
   cursor: pointer;
 }
 
 .order-servise {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -112,8 +114,8 @@ hero-button:focus {
 /* benefits section */
 
 .benefits-list-subtitle {
-  color: var(--navyblue)
-  font-family: "Roboto";
+  color: var(--navyblue);
+  font-family: 'Roboto';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -123,35 +125,35 @@ hero-button:focus {
 
 .benefits-list-desc {
   color: var(--slate);
-font-family: "Roboto";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* doing section */
 
 .doing-section {
-  background: #FFF;
+  background: #fff;
 }
 
 .doing-title {
   color: var(--navyblue);
-text-align: center;
-font-family: "Roboto";
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.1;
-letter-spacing: 0.02;
-text-transform: capitalize;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .doing-list-img {
   border: var(--cornflower);
-background: lightgray;
+  background: lightgray;
 }
 
 /* team section */
@@ -161,65 +163,80 @@ background: lightgray;
 }
 .team-title {
   color: var(--navyblue);
-text-align: center;
-font-family: "Roboto";
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.1;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-list-item {
-background: var(--white);
+  background: var(--white);
 }
 
 .team-list-subtitle {
   color: var(--navyblue);
-text-align: center;
-font-family: "Roboto";
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .team-list-desc {
   color: var(--slate);
-text-align: center;
-font-family: "Roboto";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* filters section */
 
-.filters-section {
+.portfolio-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
 }
 
-.filters-list-item {
-}
-.portfolio-button {
+.portfolio-button:focus,
+.portfolio-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* row section */
 
-.row-section {
-}
-.row-title {
+.row-list-subtitle {
+  color: var(--navyblue);
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.row-list-item {
-}
-.row-list-img {
-}
-.row-list-subtitle {
-}
 .row-list-desc {
+  color: var(--slate);
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* footer section  */
@@ -234,10 +251,10 @@ letter-spacing: 0.02em;
 
 .footer-desc {
   color: var(--cloud);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
