@@ -13,6 +13,8 @@ body {
   --cloud: #f4f4fd;
 }
 
+/* header section */
+
 .list {
   list-style: none;
 }
@@ -46,10 +48,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--ocean);
 }
+
 .address {
   font-family: 'Roboto';
   font-size: 16px;
@@ -67,4 +71,127 @@ body {
 .address-link:hover,
 .address-link:focus {
   color: var(--ocean);
+}
+
+/* hero section */
+
+.hero-section {
+  background: var(--navyblue, #2e2f42);
+}
+.hero-title {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0, 02em;
+  color: var(--white, #fff);
+  text-align: center;
+}
+.hero-button {
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.order-servise {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white, #fff);
+}
+
+/* benefits section */
+
+.benefits-section {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-list-subtitle {
+}
+.benefits-list-desc {
+}
+
+/* doing section */
+
+.doing-section {
+}
+.doing-title {
+}
+.doing-list {
+}
+.doing-list-item {
+}
+.doing-list-img {
+}
+
+/* team section */
+
+.team-seaction {
+}
+.tean-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-img {
+}
+.team-list-subtitle {
+}
+.team-list-desc {
+}
+.team-list-ing {
+}
+
+/* filters section */
+
+.filters-section {
+}
+.filters-caption {
+}
+.filters-list {
+}
+.filters-list-item {
+}
+.portfolio-button {
+}
+
+/* row section */
+
+.row-section {
+}
+.row-title {
+}
+.row-list {
+}
+.row-list-item {
+}
+.row-list-img {
+}
+.row-list-subtitle {
+}
+.row-list-desc {
+}
+
+/* footer section  */
+
+.footer-section {
+}
+.link {
+}
+.logo {
+}
+.studio-color {
+}
+.footer-logo-color {
+}
+.footer-desc {
 }
